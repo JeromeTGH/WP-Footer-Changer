@@ -1,11 +1,11 @@
 <?php
 /**
- * @package WP-Footer-Filter
+ * @package WP-Footer-Changer
  * @version 1.0.0
  */
 /*
-Plugin Name: WP-Footer-Filter
-Plugin URI: https://github.com/JeromeTGH/WP-Footer-Filter
+Plugin Name: WP-Footer-Changer
+Plugin URI: https://github.com/JeromeTGH/WP-Footer-Changer
 Description: Filtre de remplacement de pied de page, pour Wordpress
 Author: Jérôme TOMSKI
 Version: 1.0.0
