@@ -1,2 +1,2 @@
 # WP-Footer-Filter
-Filtre pour pied de page Wordpress
+Filtre de remplacement pour pied de page WP
