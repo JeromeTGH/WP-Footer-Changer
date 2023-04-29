@@ -12,10 +12,17 @@ Version: 1.0.0
 Author URI: https://github.com/JeromeTGH
 */
 
+// ============================================
+// Blocage des appels directs à cette extension
+// ============================================
+if (!function_exists('add_action')) {
+	echo 'Ce plugin ne peut être appelé directement !';
+	exit;
+}
 
-// ====================================
+// =======================
 // Retirer l'ancien footer
-// ====================================
+// =======================
 add_filter('neve_filter_toggle_content_parts', 'retirerFooter');
 
 function retirerFooter($contenu) {
@@ -23,9 +30,9 @@ function retirerFooter($contenu) {
 }
 
 
-// ====================================
+// =========================
 // Insérer le nouveau footer
-// ====================================
+// =========================
 add_filter('wp_footer', 'ajouterNouveauFooter');
 
 function ajouterNouveauFooter() {
